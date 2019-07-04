@@ -1,0 +1,26 @@
+{
+  "name": "ff-selenium",
+  "version": "0.1.0",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "react-scripts": "1.0.7",
+    "selenium-webdriver": "^3.4.0",
+    "webdriver-manager": "^12.1.5"
+  },
+  "scripts": {
+    "test": "jest -c e2e/jestConfig.json",
+    "update": "webdriver-manager update --out_dir ../../e2e/selenium",
+    "start": "webdriver-manager start --out_dir ../../e2e/selenium"
+  },
+  "author": "First Factory DEV team",
+  "contributors": [
+    {
+      "name":"Esteban Valverde",
+      "email": "esteban@firstfactory.com"
+    },
+    {
+      "name":"Johnn Castro",
+      "email": "johnn@firstfactory.com"
+    }
+  ]
+}
